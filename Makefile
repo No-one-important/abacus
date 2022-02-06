@@ -6,4 +6,4 @@ compile:
 	go build -o $(BIN)
 
 run:
-	./$(BIN)	
+	./$(BIN)
