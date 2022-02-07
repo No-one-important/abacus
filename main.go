@@ -45,14 +45,14 @@ func (s *StringSliceArg) UnmarshalText(text []byte) error {
 }
 
 type args struct {
-	IgnoreColor           bool           `arg:"-n,--no-color" help:"disable color in output" default:"false"`
+	IgnoreColor           bool           `arg:"-n,--no-color" help:"disable color in output" default:"true"`
 	AllowCopy             bool           `arg:"--allow-copy" help:"Ctrl-C will copy current expression (if present) or last answer instead of aborting" default:"false"`
 	Strict                bool           `arg:"--strict" help:"prohibit use of undefined lambdas and variables" default:"false"`
 	Precision             uint32         `arg:"-p,--precision" help:"precision for calculations" default:"128"`
 	EvalExpressionAndExit string         `arg:"-e,--eval" help:"evaluate expression and exit"`
 	ImportDefinitions     string         `arg:"-i,--import" help:"import statements from file and continue"`
 	CustomPromptSymbol    string         `arg:"--prompt-symbol" help:"custom prompt symbol" default:"; " `
-	LastAnswerVariables   StringSliceArg `arg:"--answer-vars" help:"custom last answer variable names" default:"ans,answer,_"`
+	LastAnswerVariables   StringSliceArg `arg:"--answer-vars" help:"custom last answer variable names" default:"ans,answer"`
 }
 
 func (args) Version() string {

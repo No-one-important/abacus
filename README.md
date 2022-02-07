@@ -7,7 +7,7 @@ Abacus is a simple interactive calculator CLI with support for variables, lambda
 </p>
 
 ```
-λ abacus -h         
+λ abacus -h
 
 abacus - a simple interactive calculator CLI with support for variables, lambdas, comparison checks, and math functions
 

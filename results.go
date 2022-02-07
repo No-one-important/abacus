@@ -2,9 +2,10 @@ package main
 
 import (
 	"errors"
-	"github.com/cockroachdb/apd"
 	"strconv"
 	"strings"
+
+	"github.com/cockroachdb/apd"
 )
 
 // Result is struct returned after evaluating each leaf in the parser tree.
@@ -19,9 +20,7 @@ func NewResult(value Formatter) *Result {
 }
 func (r *Result) WithErrors(previous *Result, ee ...string) *Result {
 	if previous != nil {
-		for _, e := range previous.Errors {
-			r.Errors = append(r.Errors, e)
-		}
+		r.Errors = append(r.Errors, previous.Errors...)
 	}
 	for _, e := range ee {
 		r.Errors = append(r.Errors, errors.New(e))
@@ -163,7 +162,7 @@ func (r LambdaArguments) Color() string {
 }
 
 type Number struct {
-	 *apd.Decimal
+	*apd.Decimal
 }
 
 func (r Number) String() string {
