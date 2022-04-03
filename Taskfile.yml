@@ -3,7 +3,7 @@ version: "3"
 tasks:
     build:
         cmds:
-            - go build -o abacus
+            - go build
 
     run:
         cmds:
