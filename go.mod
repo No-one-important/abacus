@@ -1,6 +1,6 @@
 module github.com/viktordanov/abacus
 
-go 1.17
+go 1.18
 
 require (
 	github.com/alexflint/go-arg v1.4.3
@@ -12,6 +12,7 @@ require (
 
 require (
 	github.com/alexflint/go-scalar v1.1.0 // indirect
+	github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220314183648-97c793e446ba // indirect
 	github.com/lib/pq v1.10.4 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/pkg/errors v0.9.1 // indirect

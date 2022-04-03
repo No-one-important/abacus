@@ -51,7 +51,7 @@ type args struct {
 	Precision             uint32         `arg:"-p,--precision" help:"precision for calculations" default:"128"`
 	EvalExpressionAndExit string         `arg:"-e,--eval" help:"evaluate expression and exit"`
 	ImportDefinitions     string         `arg:"-i,--import" help:"import statements from file and continue"`
-	CustomPromptSymbol    string         `arg:"--prompt-symbol" help:"custom prompt symbol" default:"; " `
+	CustomPromptSymbol    string         `arg:"--prompt-symbol" help:"custom prompt symbol" default:"> " `
 	LastAnswerVariables   StringSliceArg `arg:"--answer-vars" help:"custom last answer variable names" default:"ans,answer"`
 }
 

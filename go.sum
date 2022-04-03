@@ -10,6 +10,8 @@ github.com/antlr/antlr4 v0.0.0-20210114010855-d34d2e1c271a h1:gXj02obcEEw9NVyvbn
 github.com/antlr/antlr4 v0.0.0-20210114010855-d34d2e1c271a/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
 github.com/antlr/antlr4 v0.0.0-20220314183648-97c793e446ba h1:3b0IqMaHq4A6PHXR5f+X6G5WH55elyzQ7AzxSgg6jX8=
 github.com/antlr/antlr4 v0.0.0-20220314183648-97c793e446ba/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
+github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220314183648-97c793e446ba h1:GzYOm7fQbUZvAWPPBKxGqCmzTXJ2AYuWz4187HVxjno=
+github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220314183648-97c793e446ba/go.mod h1:F7bn7fEU90QkQ3tnmaTx3LTKLEDqnwWODIYppRQ5hnY=
 github.com/cockroachdb/apd v1.1.0 h1:3LFP3629v+1aKXU5Q37mxmRxX/pIu1nijXydLShEq5I=
 github.com/cockroachdb/apd v1.1.0/go.mod h1:8Sl8LxpKi29FqWXR16WEFZRNSz3SoPzUzeMeY4+DwBQ=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

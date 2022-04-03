@@ -1,0 +1,15 @@
+version: "3"
+
+tasks:
+    build:
+        cmds:
+            - go build -o abacus
+
+    run:
+        cmds:
+            - task build
+            - ./abacus
+
+    test:
+        cmds:
+            - go test
